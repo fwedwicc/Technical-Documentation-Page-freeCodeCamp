@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+    
+}
+.alignment {
+    display:flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.nav-list li {
+    list-style-type: none;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: #6183A0;
+}
+#navbar {
+    background-color: #CDD6DB;
+    padding: 2rem 3.3rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    color: #6183A0;
+    border-radius: 1rem 0 0 1rem;
+    font-size: 14px;
+    position: fixed;
+    height: 40.5rem; 
+    left: 1rem;
+    top: 1rem;
+  z-index: 1;
+}
+#main-doc {
+    width: 100%;
+    padding: 1rem 4rem 2rem 23rem;
+    font-family: 'Roboto', sans-serif;
+    color: #264E71;
+    font-size: 14px;
+    line-height: 1.4rem;
+    
+}
+h1 {
+    font-size: 27px;
+}
+code {
+    background-color: #99A8B3;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+}
